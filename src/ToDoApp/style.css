@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Mulish:wght@400;500;600;700&display=swap');
+h1{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 40px;
+}
+
+.first-parent-body{
+display: flex;
+justify-content: center;
+}
+
+.input-box{
+    width:300px;
+    height:35px;
+    border-radius: 5px;
+    border: 2px solid rgb(124, 124, 239);
+}
+
+.parent-body{
+    
+    width: 480px;
+    height: 400px;
+    background-color: rgba(243, 235, 235, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+    
+}
+.button{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #888888;
+    margin-left: 10px;
+    width:100px;
+    height:40px;
+    box-shadow: 4px 4px 10px rgba(132, 122, 122, 0.4);
+}
+.box-holding-inputbox-and-button{
+    padding-top: 30px;
+}
+.ans-div-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.answer-div{
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+   
+    
+}
+.cross{
+    font-size: 25px;
+    margin-left: 10px;
+   
+}
